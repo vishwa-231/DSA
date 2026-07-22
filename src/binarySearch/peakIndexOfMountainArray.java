@@ -1,6 +1,7 @@
 package binarySearch;
 
 //https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/2073489241/
+//https://leetcode.com/problems/find-peak-element/submissions/2075199022/
 public class peakIndexOfMountainArray {
     public static void main(String[] args){
         int[] arr = {3, 5, 3, 2, 0};
