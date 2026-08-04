@@ -11,7 +11,7 @@ public class simpleBubbleSort {
 
     public static void bubbleSort(int[] arr){
         int length = arr.length;
-        boolean isSwapMade = false;
+        boolean isSwapMade;
         do{
             isSwapMade = false;
             for(int i=1;i<length;i++){
