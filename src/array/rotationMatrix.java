@@ -7,7 +7,7 @@ public class rotationMatrix {
     public static void main(String[] args){
         int[][] mat = {{0,0,0}, {0,1,0}, {1,1,1}};
         int[][] target = {{1,1,1}, {0,1,0}, {0,0,0}};
-        findRotation(mat, target);
+        System.out.println(findRotation(mat, target));
     }
 
     public static boolean findRotation(int[][] mat, int[][] target) {
