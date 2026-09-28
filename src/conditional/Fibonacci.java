@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Fibonacci {
     public static void main (String[] args){
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        int n = 150;
 
         int a =0, b =1, c = a+b;
         for(int i=2;i<=n;i++){
