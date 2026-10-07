@@ -3,7 +3,7 @@ package twoPointers;
 //https://leetcode.com/problems/container-with-most-water/description/
 public class waterContainer {
     public static void main(String[] args){
-        int[] arr = {120,120,6,2,5,4,8,3,7};
+        int[] arr = {1,8,6,2,5,4,8,3,7};
         int sum = maxArea(arr);
         System.out.println(sum);
     }

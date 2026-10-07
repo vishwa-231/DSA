@@ -6,8 +6,8 @@ import java.util.HashMap;
 //https://leetcode.com/problems/two-sum/
 public class twoSum {
     public static void main(String[] args){
-        int[] arr = new int[]{3,3};
-        int target = 6;
+        int[] arr = new int[]{2,4,5,7,11,15};
+        int target = 9;
         int[] result = twoSum(arr, target);
         System.out.println(Arrays.toString(result));
     }
