@@ -15,9 +15,9 @@ public class binarySearchUsingRecursion {
         if(arr[mid]==target){
             return mid;
         }else if(arr[mid]>target){
-            end--;
+            end=mid-1;
         }else{
-            start++;
+            start=mid+1;
         }
         return binarySearch(arr, start, end, target);
     }
