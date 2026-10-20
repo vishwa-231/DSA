@@ -9,7 +9,6 @@ public class power {
         System.out.println(result);
     }
 
-
     public static double myPow(double x, int n) {
         long N = n;
         if (N < 0) {
@@ -21,10 +20,12 @@ public class power {
 
     private static double fastPow(double x, long n) {
         if (n == 0) return 1.0;
-        if (n % 2 == 1) {
-            return x * fastPow(x * x, (n - 1) / 2);
+        double half = fastPow(x, n/2);
+        if(n%2==0){
+            return half*half;
+        }else{
+            return half*half*x;
         }
-        return fastPow(x * x, n / 2);
     }
 
     // My POV Code
